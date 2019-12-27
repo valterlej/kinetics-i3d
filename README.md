@@ -24,6 +24,14 @@ The repository also now includes a pre-trained checkpoint using rgb inputs and t
 
 Disclaimer: This is not an official Google product.
 
+## Warning
+
+Este repositório utiliza versões específicas das bibliotecas tensorflow-gpu, tensorflow-probability e dm-sonnet. É recomendado criar um ambiente virtual isolado para execução.
+
+`$ virtualenv deepmind`
+`$ source ~/dir/deepmind/bin/activate`
+`$ pip install -r requirements.txt`
+
 ## Running the code
 
 ### Setup
